@@ -1,0 +1,15 @@
+[ 2026-05-07 10:31:47,290 ] - training_pipeline - 36 - ******************* - root 
+[ 2026-05-07 10:31:47,291 ] - training_pipeline - 37 - >>>>>> stage Training started <<<<<< - root 
+[ 2026-05-07 10:31:47,294 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-07 10:31:47,296 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-07 10:31:47,297 ] - main_utils - 34 - Created Directory at: artifacts - root 
+[ 2026-05-07 10:31:47,299 ] - main_utils - 34 - Created Directory at: artifacts\prepare_callbacks\checkpoint_dir - root 
+[ 2026-05-07 10:31:47,300 ] - main_utils - 34 - Created Directory at: artifacts\prepare_callbacks\tensorboard_log_dir - root 
+[ 2026-05-07 10:31:47,300 ] - main_utils - 34 - Created Directory at: artifacts\training - root 
+[ 2026-05-07 10:31:47,716 ] - config - 464 - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin. - tensorflow 
+[ 2026-05-07 10:31:47,721 ] - saving_utils - 249 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model. - absl 
+[ 2026-05-07 10:33:51,555 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-07 10:33:51,722 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-07 10:33:51,859 ] - training_pipeline - 40 - >>>>>> stage Training completed <<<<<<
+
+x==========x - root 

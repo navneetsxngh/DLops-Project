@@ -1,0 +1,12 @@
+[ 2026-05-07 10:31:35,595 ] - prepare_base_model - 26 - ******************* - root 
+[ 2026-05-07 10:31:35,595 ] - prepare_base_model - 27 - >>>>>> stage Prepare base model started <<<<<< - root 
+[ 2026-05-07 10:31:35,596 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-07 10:31:35,599 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-07 10:31:35,599 ] - main_utils - 34 - Created Directory at: artifacts - root 
+[ 2026-05-07 10:31:35,600 ] - main_utils - 34 - Created Directory at: artifacts/prepare_base_model - root 
+[ 2026-05-07 10:31:36,319 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-07 10:31:36,516 ] - config - 464 - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin. - tensorflow 
+[ 2026-05-07 10:31:36,579 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-07 10:31:36,733 ] - prepare_base_model - 30 - >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x - root 

@@ -1,0 +1,42 @@
+[ 2026-05-11 08:53:15,624 ] - main - 12 - >>>>>> Data Ingestion Stage started <<<<<< - root 
+[ 2026-05-11 08:53:15,633 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:53:15,646 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:53:15,646 ] - main_utils - 34 - Created Directory at: artifacts - root 
+[ 2026-05-11 08:53:15,646 ] - main_utils - 34 - Created Directory at: artifacts/data_ingestion - root 
+[ 2026-05-11 08:53:15,646 ] - data_ingestion - 26 - File already exists of size: ~ 11345 KB - root 
+[ 2026-05-11 08:53:15,979 ] - main - 15 - >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x - root 
+[ 2026-05-11 08:53:15,979 ] - main - 22 - >>>>>> Prepare Base Model started <<<<<< - root 
+[ 2026-05-11 08:53:15,979 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:53:15,979 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:53:15,979 ] - main_utils - 34 - Created Directory at: artifacts - root 
+[ 2026-05-11 08:53:15,979 ] - main_utils - 34 - Created Directory at: artifacts/prepare_base_model - root 
+[ 2026-05-11 08:53:16,735 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-11 08:53:16,897 ] - config - 464 - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin. - tensorflow 
+[ 2026-05-11 08:53:17,011 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-11 08:53:17,215 ] - main - 25 - >>>>>> Prepare Base Model completed <<<<<<
+
+x==========x - root 
+[ 2026-05-11 08:53:17,215 ] - main - 32 - >>>>>> Training started <<<<<< - root 
+[ 2026-05-11 08:53:17,216 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:53:17,218 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:53:17,220 ] - main_utils - 34 - Created Directory at: artifacts - root 
+[ 2026-05-11 08:53:17,220 ] - main_utils - 34 - Created Directory at: artifacts\prepare_callbacks\checkpoint_dir - root 
+[ 2026-05-11 08:53:17,221 ] - main_utils - 34 - Created Directory at: artifacts\prepare_callbacks\tensorboard_log_dir - root 
+[ 2026-05-11 08:53:17,221 ] - main_utils - 34 - Created Directory at: artifacts\training - root 
+[ 2026-05-11 08:53:17,443 ] - saving_utils - 249 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model. - absl 
+[ 2026-05-11 08:55:18,722 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-11 08:55:18,866 ] - saving_api - 83 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.  - absl 
+[ 2026-05-11 08:55:18,996 ] - main - 35 - >>>>>> Training completed <<<<<<
+
+x==========x - root 
+[ 2026-05-11 08:55:18,996 ] - main - 43 - >>>>>> Evaluation started <<<<<< - root 
+[ 2026-05-11 08:55:19,007 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:55:19,008 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-11 08:55:19,008 ] - main_utils - 34 - Created Directory at: artifacts - root 
+[ 2026-05-11 08:55:19,195 ] - saving_utils - 249 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model. - absl 
+[ 2026-05-11 08:55:29,412 ] - main_utils - 46 - json file saved at: scores.json - root 
+[ 2026-05-11 08:55:29,412 ] - main - 46 - >>>>>> Evaluation completed <<<<<<
+
+x==========x - root 

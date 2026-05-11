@@ -1,0 +1,11 @@
+[ 2026-05-07 10:34:01,822 ] - evaluation_pipeline - 26 - ******************* - root 
+[ 2026-05-07 10:34:01,822 ] - evaluation_pipeline - 27 - >>>>>> stage Evaluation stage started <<<<<< - root 
+[ 2026-05-07 10:34:01,825 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-07 10:34:01,826 ] - main_utils - 18 - YAML file Successfully Loaded - root 
+[ 2026-05-07 10:34:01,827 ] - main_utils - 34 - Created Directory at: artifacts - root 
+[ 2026-05-07 10:34:02,220 ] - config - 464 - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin. - tensorflow 
+[ 2026-05-07 10:34:02,242 ] - saving_utils - 249 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model. - absl 
+[ 2026-05-07 10:34:12,881 ] - main_utils - 46 - json file saved at: scores.json - root 
+[ 2026-05-07 10:34:12,881 ] - evaluation_pipeline - 30 - >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x - root 
